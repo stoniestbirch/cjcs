@@ -1,0 +1,125 @@
+body {
+	font-family: Lato, Verdana, Arial, Helvetica, sans-serif;
+	background: #7D9DD2;
+	margin: 0; /* it's good practice to zero the margin and padding of the body element to account for differing browser defaults */
+	padding: 0;
+	text-align: center; /* this centers the container in IE 5* browsers. The text is then set to the left aligned default in the #container selector */
+	color: #000000;
+}
+
+h3, h2, h1 {color:#2b3990;}
+
+#mainContent {
+	clear:both;
+}
+
+.oneColElsCtr #container {
+	width: 800px;
+	background: #FFFFFF;
+	margin: 0 auto; /* the auto margins (in conjunction with a width) center the page */
+	border: 1px solid #000000;
+	text-align: left; /* this overrides the text-align: center on the body element. */
+}
+
+.oneColElsCtr #mainContent {
+	padding: 0 20px; /* remember that padding is the space inside the div box and margin is the space outside the div box */
+}
+
+ul.footer_menu {
+  text-align: center;
+  border-top: 1px solid #cccccc;
+  padding-top: 15px;
+}
+
+ul.footer_menu li {
+  display:inline-block;
+  padding: 0 5px;
+  list-style-type: none;
+}
+
+ul.footer_menu li.first{
+  border-right: 1px solid #cccccc;
+  padding-right: 7px
+}
+
+ul.footer_menu li.last{
+  border-left: 1px solid #cccccc;
+  padding-left: 7px;
+}
+.myButton {
+	-moz-box-shadow:inset 0px 1px 0px 0px #fff6af;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #fff6af;
+	box-shadow:inset 0px 1px 0px 0px #fff6af;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ffec64), color-stop(1, #ffab23));
+	background:-moz-linear-gradient(top, #ffec64 5%, #ffab23 100%);
+	background:-webkit-linear-gradient(top, #ffec64 5%, #ffab23 100%);
+	background:-o-linear-gradient(top, #ffec64 5%, #ffab23 100%);
+	background:-ms-linear-gradient(top, #ffec64 5%, #ffab23 100%);
+	background:linear-gradient(to bottom, #ffec64 5%, #ffab23 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffec64', endColorstr='#ffab23',GradientType=0);
+	background-color:#ffec64;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #ffaa22;
+	display:inline-block;
+	cursor:pointer;
+	color:#333333;
+	font-family:Arial;
+	font-size:22px;
+	font-weight:bold;
+	padding:12px 30px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffee66;
+}
+.myButton:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ffab23), color-stop(1, #ffec64));
+	background:-moz-linear-gradient(top, #ffab23 5%, #ffec64 100%);
+	background:-webkit-linear-gradient(top, #ffab23 5%, #ffec64 100%);
+	background:-o-linear-gradient(top, #ffab23 5%, #ffec64 100%);
+	background:-ms-linear-gradient(top, #ffab23 5%, #ffec64 100%);
+	background:linear-gradient(to bottom, #ffab23 5%, #ffec64 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffab23', endColorstr='#ffec64',GradientType=0);
+	background-color:#ffab23;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+#header {
+	margin-bottom:2em;
+}
+
+#header h1 {
+	color:white; 
+	z-index: 900; 
+	position:relative; 
+	top:30px; 
+	border-top: solid black 2px; 
+	border-bottom: solid black 2px; 
+	background-color: #293b90;
+	font-size: 1.5em;
+	padding: 5px 0 5px;
+	text-align:center;
+}
+
+#header .subtitle {
+	font-size: 1.5em; 
+	color:black; 
+	z-index: 800; 
+	position:relative; 
+	top:10px;  
+	border-bottom: solid black 2px; 
+	background-color: #7c9cd1;
+}
+
+#header .logo {
+	height:130px; 
+	display:block; 
+	float:left; 
+	position:relative; 
+	padding-left: 35px; 
+	z-index:1000;
+	margin-bottom:2em;
+}
